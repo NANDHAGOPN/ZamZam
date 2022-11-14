@@ -1,7 +1,7 @@
 app.config(function($routeProvider,$locationProvider){
 	$locationProvider.hashPrefix('');
 	$routeProvider.when("/",{
-		templateUrl:'index.html'
+		templateUrl:'index1.html'
 	}).when("/specials",{
 		templateUrl:'indexspecial.html',
 		controller:'specialctrl'
