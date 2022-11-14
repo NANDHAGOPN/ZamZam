@@ -6,7 +6,7 @@ app.config(function($routeProvider,$locationProvider){
 		templateUrl:'indexspecial.html',
 		controller:'specialctrl'
 	}).when("/menu",{
-		templateUrl:'index.html',
+		templateUrl:'index2.html',
 		controller:'menuctrl'
 		
 	}).otherwise({redirectTo:"/"
